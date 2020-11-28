@@ -1,0 +1,9 @@
+﻿<Application x:Class="NowResult.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:NowResult"
+             StartupUri="./View/Main/Main.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

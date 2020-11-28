@@ -1,0 +1,19 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NowResult"
+        xmlns:sparrowToolkit="http://sparrowtoolkit.codeplex.com/wpf"
+        x:Class="NowResult.Risultati"
+        mc:Ignorable="d"
+        Title="Risultati" Height="460.084" Width="985.294" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="Live" HorizontalAlignment="Left" Margin="11,18,0,0" VerticalAlignment="Top" Width="170"/>
+        <Label Content="Early" HorizontalAlignment="Left" Margin="734,18,0,0" VerticalAlignment="Top" Width="170"/>
+        <Label Content="N Storici" HorizontalAlignment="Left" Margin="799,18,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label Content="N Storici" HorizontalAlignment="Left" Margin="76,18,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label Content="0" x:Name="nStoriciLive" HorizontalAlignment="Left" Margin="141,18,0,0" VerticalAlignment="Top" Width="105"/>
+        <Label Content="0" x:Name="nStoriciEarly" HorizontalAlignment="Left" Margin="864,18,0,0" VerticalAlignment="Top" Width="105"/>
+    </Grid>
+</Window>
